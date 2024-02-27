@@ -50,7 +50,9 @@ body {
  
 .navbar {
     border-bottom: 1px solid lightgray;
-    
+    position: sticky;
+    top: -5px;
+    background-color: #ffffff;
 }
 .navbar img{
     margin-left: 60px;   
@@ -137,14 +139,79 @@ body {
     background-color: #ffffff;
 }
 
+    /* first-step compeleted */
 
 
 
+    .what {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 15px;
+        
+    }
+    .second button {
+        width: 130px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: #f0fcdb;
+        
+    }
+
+    .second button:hover {
+        width: 135px;
+        height: 155px;
+        transition: 0.3s;
+    }
+
+.donation {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    
+}
+.donation img {
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    
+}
+.donation button {
+    border: none;
+}
 
 
+.green-link {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #8dc63f;
+    position: relative;
+    top: -50px;
+    left: 15px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
-
-
+/* second-step ended */
 
 
 
@@ -223,7 +290,26 @@ body {
         font-size: 12px;
         border: none;
         background-color: #ffffff;
+
     }
-    
+    .second {
+        display: flex;
+        row-gap: 40px;
+    }
+
+    .second button {
+        width: 90%;
+        
+    }
+    .second button:hover {
+        width: 95%;
+        transition: 0.3s;
+    }
+
+
+
+    .donation img {
+        width: 100%;
+    }
 }
     
