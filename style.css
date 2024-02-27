@@ -1,0 +1,229 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.head-icon {
+    margin-right: 400px;
+    display: flex;
+    align-items: center;
+}
+.head-icon button{
+    border: none;
+    color: #666666; 
+    font-weight: bold;  
+    font-size: 12px;
+    
+}
+.head-icon img {
+    margin-right: 5px;
+}
+
+
+.english button{
+    background-color: #ffffff;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+.saylani-image {
+    width: 200px;
+}
+ 
+.navbar {
+    border-bottom: 1px solid lightgray;
+    
+}
+.navbar img{
+    margin-left: 60px;   
+}
+#navbarNav {
+    margin-left: 40px;
+}
+
+.nav-link {
+    font-size: 13px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #8dc63f;
+}
+.donate {
+    width: 100px;
+    background-color: #0d6db7;
+    border:1px solid #8dc63f;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #ffffff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: #8dc63f;
+}
+.sponser {
+    color: #ffffff;
+
+    width: 100px;
+    font-size: 10px;
+
+    background-color: #8dc63f;
+    border: 1px solid #0d6db7;
+    border-radius: 5px;
+    margin-left: ;
+
+}
+
+
+
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.right img {
+    width: 400px;
+}
+
+
+
+.explore {
+    width: 150px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.explore button {
+    width: 130px;
+    height: 40px;
+    font-size: 12px;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .head-icon {
+        margin-right: 0px;
+        
+    }
+    .head-icon button {
+        font-size: 10px;
+    }
+    .head {
+        height: 50px;
+    }
+
+
+    .donate {
+        width: 90%;
+        height: 40px;
+        margin: 0px;
+        margin-bottom: 5px;
+    }
+    .sponser {
+        width: 90%;
+        height: 40px;
+        margin: 0px;
+
+    }
+
+
+  
+    .first {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .left {
+
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .left h3 {
+        width: 80%;
+        font-size: 15px;
+    }
+    .left p {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .right {
+        display: none;
+    }
+    .explore {
+        width: 150px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -15px;
+    }
+    .explore button {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        border: none;
+        background-color: #ffffff;
+    }
+    
+}
+    
