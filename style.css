@@ -52,6 +52,7 @@
     border-bottom: 1px solid lightgray;
     position: sticky;
     top: -5px;
+    z-index: 1000;
     background-color: #ffffff;
 }
 .navbar img{
@@ -221,6 +222,82 @@
 
 
 
+.footer-div {
+    background-color: #424242;
+    width: 100%;
+    height: 500px;
+}
+
+
+.footer-icons {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-icons img {
+    width: 250px;
+}
+.social img {
+    width: 40px;
+    border-radius: 5px;
+    
+}
+.social {
+    margin-right: 50px;
+}
+
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   padding-top: 50px;
+    color: white;
+}
+
+
+.contact p {
+
+    font-size: 14px;
+}
+
+
+.copyright-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.approved {
+    width: 80%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 12px;
+    
+
+}
+
+.ip-info {
+    width: 80%;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+.white {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
 
 
 
@@ -316,6 +393,54 @@
 
     .donation img {
         width: 100%;
+    }
+
+    .footer-div {
+        height: fit-content;
+        background-color: #424242;
+        
+    }
+
+   
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+
+       
+    }
+    .contact {
+        text-align: center;
+        width: 80%;
+    }
+
+    .social {
+        margin-left: 50px;
+      
+    }
+    .copyright-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+    }
+
+    .approved {
+        width: 80%;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+        border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+
+    }
+
+    .ip-info {
+        width: 80%;
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+
     }
 }
     
